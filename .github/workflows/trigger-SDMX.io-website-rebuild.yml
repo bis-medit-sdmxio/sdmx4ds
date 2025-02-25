@@ -1,0 +1,20 @@
+name: trigger SDMX.io website rebuild
+run-name: ${{ github.run_number }} ${{ github.event.head_commit.message }}
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger-build:
+    name: trigger website rebuild
+    runs-on:
+      - autoscaled
+      - quay.bisinfo.org/devops/python-311-runner
+      - XS
+      - ${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - name: ⚡ trigger website rebuild
+        run: |
+          echo 'lala'
