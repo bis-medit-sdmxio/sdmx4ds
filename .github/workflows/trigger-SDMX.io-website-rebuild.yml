@@ -9,11 +9,7 @@ on:
 jobs:
   trigger-build:
     name: trigger website rebuild
-    runs-on:
-      - autoscaled
-      - quay.bisinfo.org/devops/python-311-runner
-      - XS
-      - ${{ github.run_id }}-${{ github.run_attempt }}
+    runs-on: ubuntu-latest
     steps:
       - name: ⚡ trigger website rebuild
         run: |
