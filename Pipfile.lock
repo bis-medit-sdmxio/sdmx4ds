@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "4a66d0f50590f413174a2a7b7f7cdce3796e7a50832cbabd95964f2a5b07c6d1"
+            "sha256": "f2663d196623587321486b3cd909243defa8fe64bbcffe1cf9852c1257886661"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -1830,13 +1830,6 @@
             "markers": "python_version >= '3.8' and python_version < '4.0'",
             "version": "==0.2.0"
         },
-        "sdmxthon": {
-            "hashes": [
-                "sha256:78b8f7f8dec666829c0dd4ce1fd6dfaaed3ab4cc924f19fdd7759888c70054c1"
-            ],
-            "index": "pypi",
-            "version": "==2.6.7"
-        },
         "send2trash": {
             "hashes": [
                 "sha256:0c31227e0bd08961c7665474a3d1ef7193929fedda4233843689baa056be46c9",
@@ -1964,14 +1957,6 @@
             ],
             "markers": "python_version >= '3.9'",
             "version": "==2.3.0"
-        },
-        "validators": {
-            "hashes": [
-                "sha256:647fe407b45af9a74d245b943b18e6a816acf4926974278f6dd617778e1e781f",
-                "sha256:c804b476e3e6d3786fa07a30073a4ef694e617805eb1946ceee3fe5a9b8b1321"
-            ],
-            "markers": "python_version >= '3.8'",
-            "version": "==0.34.0"
         },
         "wcwidth": {
             "hashes": [
