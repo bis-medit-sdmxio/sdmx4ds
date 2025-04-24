@@ -6,8 +6,8 @@ Contributing a paper follows a fork-and-pull request workflow
 1. **Fork this repository.**
 2. **Clone your fork locally**
    ```bash
-   git clone https://github.com/contributor-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/<contributor-username>/sdmx4ds.git
+   cd sdmx4ds
 3. **Create a new feature branch**
    ```bash
    git checkout -b feature-branch
