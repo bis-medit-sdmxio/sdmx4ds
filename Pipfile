@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+notebook = "7.3.3"
+plotly = "6.0.0"
+pysdmx = {extras = ["all"], version = "1.1.1"}
+matplotlib = "3.10.1"
+
+[dev-packages]
+ipykernel = "6.29.5"
+
+[requires]
+python_version = "3.11"
