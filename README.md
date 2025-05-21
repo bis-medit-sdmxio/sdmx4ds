@@ -14,7 +14,6 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidance on how to submit your
 
 ## Works
 
-[Araujo (2025): "FX rates"](20250218-Araujo/FXrates.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bis-med-it/sdmx4ds_test/blob/main/20250218-Araujo/FXrates.ipynb)
 
 > All accepted work is also available on [sdmx.io/sdmx4ds](https://sdmx.io/sdmx4ds)
 
