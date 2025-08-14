@@ -15,5 +15,5 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidance on how to submit your
 ## Works
 
 
-> All accepted work is also available on [sdmx.io/sdmx4ds](https://sdmx.io/sdmx4ds)
+> All accepted work is also available on [sdmx.io/datascience](https://sdmx.io/datascience)
 
