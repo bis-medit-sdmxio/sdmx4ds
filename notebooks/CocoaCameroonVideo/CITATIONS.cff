@@ -1,0 +1,73 @@
+cff-version: 1.2.0
+message: >-
+  If you use this work, please cite it. Replace any TODO fields before publishing.
+title: "High cocoa prices: no sweet gains for Cameroon's productivity so far"
+type: software
+version: "0.1.0"
+date-released: "2025-08-20"
+authors:
+  - given-names: "Douglas"
+    family-names: "Araujo"
+    affiliation: "Central Bank of Brazil"
+    orcid: "TODO: 0000-0000-0000-0000"
+repository-code: "TODO: https://example.com/your/repo"
+license: "TODO: LicenseIdentifier"
+keywords:
+  - SDMX
+  - SDMX4DS
+  - sdmx.io
+  - data-science
+  - Python
+language: "Python"
+# Declared software dependencies actually detected in CocoaCameroon.ipynb
+references:
+  - type: software
+    title: "gingado"
+    authors:
+      - name: "gingado contributors"
+    notes: "Python toolkit; used here for SDMX utilities (list_all_dataflows, load_SDMX_data)."
+  - type: software
+    title: "pandas"
+    authors:
+      - name: "pandas contributors"
+  - type: software
+    title: "matplotlib"
+    authors:
+      - name: "Matplotlib developers"
+  - type: software
+    title: "scikit-learn"
+    authors:
+      - name: "scikit-learn developers"
+# SDMX data sources used by the notebook (inferred)
+# These entries record provider and dataflow identifiers plus query parameters
+# consistent with the SDMX REST API (e.g., startPeriod/endPeriod/FREQ).
+  - type: dataset
+    title: "International Labour Organization (ILO) SDMX: DF_GDP_211P_NOC_NB"
+    identifiers:
+      - description: "SDMX provider"
+        type: other
+        value: "ILO"
+      - description: "SDMX dataflow ID"
+        type: other
+        value: "DF_GDP_211P_NOC_NB"
+    notes: >
+      SDMX query parameters: FREQ=A; startPeriod=2000; endPeriod=2024.
+      Retrieved via gingado.load_SDMX_data().
+    repository: "sdmx.io SDMX4DS"
+preferred-citation:
+  type: conference-paper
+  title: "TODO: Paper/Abstract Title for sdmx.io SDMX4DS"
+  authors:
+    - given-names: "TODOGiven"
+      family-names: "TODOLast"
+  year: 2025
+  collection-title: "sdmx.io SDMX4DS"
+  collection-type: proceedings
+  start: "TODO: start page"
+  end: "TODO: end page"
+  location: "TODO: City, Country"
+  notes: "This entry cites the venue as requested."
+# Optional: software citation (Zenodo DOI etc.)—add if available.
+# identifiers:
+#   - type: doi
+#     value: "10.5281/zenodo.TODO"
